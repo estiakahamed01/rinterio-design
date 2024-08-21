@@ -15,10 +15,13 @@
 <body>
     <header class="container mx-auto py-10 px-6">
         <!-- Navbar -->
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
+        <div class="navbar bg-base-100 flex justify-between">
+            <div class="md:hidden lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="navbar-start hidden md:inline-flex lg:inline-flex">
                 <h3 class="w-4 h-5 p-4 flex items-center justify-center rounded-full -rotate-45 bg-[#ABEF5F]"><i class="fa-solid fa-arrow-right"></i></h3>
-              <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
+                <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-xl font-semibold">
@@ -43,7 +46,7 @@
          <div class="container mx-auto px-6">
             <div class="mx-auto w-5/6 flex flex-col justify-center items-center">
                 <img src="./assets/banner.png" alt="">
-            <h1 class="font-black text-5xl text-center my-7">A barn house of this design has a striking appearance</h1>
+            <h1 class="font-black text-3xl lg:text-5xl text-center my-7">A barn house of this design has a striking appearance</h1>
             <p class="text-gray-500 font-medium text-center mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
             <div class="flex flex-row space-x-3 justify-center items-center px-5 py-3 rounded-full bg-[rgba(171,239,95,0.5)]">
                 <button class="text-xl font-bold">View Details</button>
@@ -53,7 +56,40 @@
          </div>
     </header>
     <main>
-
+        <!-- Objective Part -->
+        <section class="container mx-auto py-10 px-3 md:px-4 lg:px-6 bg-gray-50">
+            <div class="lg:flex lg:flex-row lg:justify-between px-5 justify-center items-center">
+                <!-- text -->
+                 <div class="mb-10 lg:w-1/3">
+                    <h1 class="text-3xl font-extrabold py-5">We design thoughtful, liveable spaces</h1>
+                    <p class="text-gray-500 font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <div class="flex flex-col md:flex-row lg:flex-col md:space-x-3">
+                        <div class="flex flex-row justify-center items-center p-5 space-x-5 bg-white rounded-xl mt-10">
+                            <div>
+                                <img  src="./assets/commercial.png" alt="">
+                            </div>
+                            <div>
+                                <h1 class="text-2xl font-bold mb-5">Commercial</h1>
+                                <p class="text-gray-500 font-semibold">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-row justify-center items-center p-5 space-x-5 bg-white rounded-xl mt-10">
+                            <div>
+                                <img  src="./assets/residential.png" alt="">
+                            </div>
+                            <div>
+                                <h1 class="text-2xl font-bold mb-5">Residential</h1>
+                                <p class="text-gray-500 font-semibold">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <!-- Image -->
+                 <div>
+                    <img class="md:flex md:justify-center md:items-center" src="./assets/Rectangle.png" alt="">
+                 </div>
+            </div>
+        </section>
     </main>
     <footer>
 
