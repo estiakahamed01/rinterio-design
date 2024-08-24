@@ -16,10 +16,7 @@
     <header class="container mx-auto py-10 px-6">
         <!-- Navbar -->
         <div class="navbar bg-base-100 flex justify-between">
-            <div class="md:hidden lg:hidden">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-            <div class="navbar-start hidden md:inline-flex lg:inline-flex">
+            <div class="navbar-start">
                 <h3 class="w-4 h-5 p-4 flex items-center justify-center rounded-full -rotate-45 bg-[#ABEF5F]"><i class="fa-solid fa-arrow-right"></i></h3>
                 <a class="btn btn-ghost text-3xl font-bold">Rinterio</a>
             </div>
@@ -32,7 +29,7 @@
                 <li class=" hover:font-bold"><a>Contact Us</a></li>
               </ul>
             </div>
-            <div class="navbar-end flex space-x-3">
+            <div class="navbar-end flex space-x-3 hidden md:inline-flex">
                 <i class="fa-solid fa-magnifying-glass w-5 h-5 p-4 bg-gray-100 rounded-full flex justify-center items-center"></i> 
                 <i class="fa-solid fa-cart-shopping w-5 h-5 p-4 bg-gray-100 rounded-full flex justify-center items-center"></i>
               <div class="flex flex-row justify-center items-center space-x-3 bg-[#ABEF5F] px-5 py-3 rounded-full">
@@ -40,7 +37,10 @@
                 <i class="fa-solid fa-arrow-right w-4 h-5 p-4 flex items-center justify-center rounded-full -rotate-45 bg-black text-white"></i>
               </div>
             </div>
-          </div>
+            <div class="lg:hidden md:ml-5">
+                <i class="fa-solid fa-bars w-5 h-5 p-5 flex justify-center items-center bg-[#E9E9E9] rounded-full"></i>
+            </div>
+        </div>
 
         <!-- Banner Section -->
          <div class="container mx-auto px-6">
@@ -48,7 +48,7 @@
                 <img src="./assets/banner.png" alt="">
             <h1 class="font-black text-3xl lg:text-5xl text-center my-7">A barn house of this design has a striking appearance</h1>
             <p class="text-gray-500 font-medium text-center mb-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
-            <div class="flex flex-row space-x-3 justify-center items-center px-5 py-3 rounded-full bg-[rgba(171,239,95,0.5)]">
+            <div class="w-full md:w-auto lg:w-auto flex flex-row space-x-3 justify-center items-center px-5 py-3  rounded-full bg-[rgba(171,239,95,0.5)]">
                 <button class="text-xl font-bold">View Details</button>
                 <h3 class="w-4 h-5 p-4 flex items-center justify-center rounded-full -rotate-45 bg-[#ABEF5F]"><i class="fa-solid fa-arrow-right"></i></h3>
             </div>
@@ -61,6 +61,13 @@
             <div class="lg:flex lg:flex-row lg:justify-between px-5 justify-center items-center">
                 <!-- text -->
                  <div class="mb-10 lg:w-1/3">
+                    <img class="mb-4 hidden md:block md:relative md:-left-7" src="./assets/Vector.png" alt="">
+                    <div class="flex justify-center items-center md:justify-start lg:justify-start">
+                        <div class="w-auto flex items-center justify-center space-x-2 px-5 py-3 bg-[#E9E9E9] rounded-full">
+                            <i class="fa-solid fa-arrow-right text-gray-800"></i>
+                            <p class="font-bold text-gray-800">About Us</p>
+                        </div>
+                    </div>
                     <h1 class="text-3xl font-extrabold py-5">We design thoughtful, liveable spaces</h1>
                     <p class="text-gray-500 font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                     <div class="flex flex-col md:flex-row lg:flex-col md:space-x-3">
