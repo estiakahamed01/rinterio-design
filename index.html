@@ -257,7 +257,7 @@
          </section>
 
         <!-- Input Section -->
-        <section class="container mx-auto mb-12 py-10 px-3 md:px-4 lg:px-6 input-bg">
+        <section class="container mx-auto py-10 px-3 md:px-4 lg:px-6 input-bg">
             <div>
                 <div class="flex flex-col justify-center items-center space-y-4 px-5 lg:w-4/6 mx-auto">
                     <div class="w-auto flex items-center justify-center space-x-2 px-5 py-3 bg-[#abef5d86] rounded-full">
@@ -269,7 +269,7 @@
                 </div>
             </div>
 
-            <div class="w-5/6 lg:w-3/5 mx-auto lg:col-span-2 mt-10">
+            <div class="w-5/6 lg:w-3/5 mx-auto lg:col-span-2 mt-10 mb-10">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
                     <div>
                         <input class="p-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="First Name*">
@@ -288,15 +288,32 @@
                     </div>
                 </div>
                 <div class="flex flex-row justify-center items-center px-5 py-3 space-x-3 bg-[#ABEF5F] rounded-full mt-6">
-                    <h2 class="Text-xl font-bold">Send Mail</h2>
-                    <i class="fa-solid fa-arrow-right"></i>
+                    <h2 class="text-xl font-bold">Send Mail</h2>
+                    <i class="fa-solid fa-arrow-right w-3 h-3 p-4 text-white -rotate-45 bg-black rounded-full flex justify-center items-center"></i>
                 </div>
             </div>
         </section>
-        
-    </main>
-    <footer>
 
+    </main>
+    <footer class="container mx-auto mb-12 py-20 px-5 md:px-4 lg:px-6 bg-[#1C1C1C]">
+        <div class="flex flex-col justify-center items-center space-y-5">
+            <div class="navbar-start flex flex-row justify-center items-center">
+                <h3 class="w-4 h-5 p-4 flex items-center justify-center rounded-full -rotate-45 bg-[#ABEF5F]"><i class="fa-solid fa-arrow-right"></i></h3>
+                <a class="btn btn-ghost text-3xl font-bold text-white">Rinterio</a>
+            </div>
+            <p class="text-[#737373] font-medium text-center">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+            <div class="text-[#E9E9E9] font-semibold flex flex-col items-center space-y-5 md:flex-row justify-between py-5 w-5/6 lg:w-4/6">
+                <p class="cursor-pointer">Home</p>
+                <p class="cursor-pointer">Services</p>
+                <p class="cursor-pointer">Portfolio</p>
+                <p class="cursor-pointer">Blogs</p>
+                <p class="cursor-pointer">Contact Us</p>
+            </div>
+            <div class="w-full md:w-auto flex flex-row justify-center items-center px-5 py-3 bg-[#ABEF5F] space-x-3 rounded-full">
+                <h2 class="text-xl font-bold">Book Consult</h2>
+                <i class="fa-solid fa-arrow-right w-3 h-3 p-4 text-white -rotate-45 bg-black rounded-full flex justify-center items-center"></i>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
