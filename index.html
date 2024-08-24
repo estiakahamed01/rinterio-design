@@ -11,6 +11,10 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/6478ecef19.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     <header class="container mx-auto py-10 px-6">
@@ -170,7 +174,7 @@
         <!-- News & Articles Section -->
          <section class="container mx-auto mb-12 py-10 px-3 md:px-4 lg:px-6 bg-gray-50">
             <div class="grid grid-cols-1">
-                <div class="flex flex-col justify-center items-center space-y-3 5/6 mx-auto">
+                <div class="flex flex-col justify-center items-center space-y-3 w-5/6 mx-auto">
                     <div class="w-auto flex items-center justify-center space-x-2 px-5 py-3 bg-[#abef5d86] rounded-full">
                         <i class="fa-solid fa-arrow-right text-gray-800"></i>
                         <p class="font-bold text-gray-800">Rinterio News</p>
@@ -182,7 +186,7 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 space-y-5 md:space-x-5 mt-10">
-                <div class="px-5 py-10 flex flex-col md:flex-row lg:flex-col shadow-md items-center bg-white rounded-xl space-y-3">
+                <div class="px-5 py-10 flex flex-col md:flex-row md:space-x-5 lg:flex-col shadow-md items-center bg-white rounded-xl space-y-3">
                     <img src="./assets/article1.png" alt="">
                     <div class="space-y-3 ">
                         <div class="flex flex-row justify-start items-center space-x-5">
@@ -205,7 +209,7 @@
                 </div>
 
 
-                <div class="px-5 py-10 flex flex-col md:flex-row lg:flex-col shadow-md items-center bg-white rounded-xl space-y-3">
+                <div class="px-5 py-10 flex flex-col md:flex-row md:space-x-5 lg:flex-col shadow-md items-center bg-white rounded-xl space-y-3">
                     <img src="./assets/article2.png" alt="">
                     <div class="space-y-3">
                         <div class="flex flex-row justify-start items-center space-x-5">
@@ -228,7 +232,7 @@
                 </div>
 
 
-                <div class="px-5 py-10 flex flex-col md:flex-row lg:flex-col shadow-md items-center bg-white rounded-xl space-y-3">
+                <div class="px-5 py-10 flex flex-col md:flex-row md:space-x-5 lg:flex-col shadow-md items-center bg-white rounded-xl space-y-3">
                     <img src="./assets/article3.png" alt="">
                     <div class="space-y-3">
                         <div class="flex flex-row justify-start items-center space-x-5">
@@ -251,6 +255,44 @@
                 </div>
             </div>
          </section>
+
+        <!-- Input Section -->
+        <section class="container mx-auto mb-12 py-10 px-3 md:px-4 lg:px-6 input-bg">
+            <div>
+                <div class="flex flex-col justify-center items-center space-y-4 px-5 lg:w-4/6 mx-auto">
+                    <div class="w-auto flex items-center justify-center space-x-2 px-5 py-3 bg-[#abef5d86] rounded-full">
+                        <i class="fa-solid fa-arrow-right text-gray-800"></i>
+                        <p class="font-bold text-gray-800">Let’s Connect</p>
+                    </div>
+                    <h1 class="text-2xl md:text-4xl font-bold">Let’s Discuss Next Project</h1>
+                    <p class="text-gray-500 font-medium text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+            </div>
+
+            <div class="w-5/6 lg:w-3/5 mx-auto lg:col-span-2 mt-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+                    <div>
+                        <input class="p-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="First Name*">
+                    </div>
+                    <div>
+                        <input class="p-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="Last Name*">
+                    </div>
+                    <div>
+                        <input class="p-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="Phone Number*">
+                    </div>
+                    <div>
+                        <input class="p-3 border-none outline-none bg-white rounded-full w-full" type="text" placeholder="Email Number*">
+                    </div>
+                    <div class="lg:col-span-2 md:col-span-2">
+                        <textarea rows="8" class="mt-3 p-4 border-none outline-none bg-white rounded-3xl w-full" name="" id="" placeholder="Write your message here"></textarea>
+                    </div>
+                </div>
+                <div class="flex flex-row justify-center items-center px-5 py-3 space-x-3 bg-[#ABEF5F] rounded-full mt-6">
+                    <h2 class="Text-xl font-bold">Send Mail</h2>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </section>
         
     </main>
     <footer>
